@@ -32,5 +32,5 @@ I believe great design connects emotions with functionality — and I always aim
 Interested in working together =) ?
 
 - 📧 Email: avenatka@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/NataliaTomala](https://linkedin.com/in/NataliaTomala)  
+- 💼 LinkedIn: [linkedin.com/in/NataliaTomala](https://linkedin.com/in/nataliatomala4444/)  
 
