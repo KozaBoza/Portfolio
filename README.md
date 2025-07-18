@@ -1,36 +1,88 @@
-# 🎨 PORTFOLIO
+# Finance Tracker - MoRey
 
-Welcome to my personal portfolio!  
-Here you'll find selected projects that showcase my skills in design, user experience, branding, and creative thinking.
-
----
-
-## ✨ABOUT ME
-
-I'm a multidisciplinary creative with a passion for blending **design, strategy, and technology**.  
-I work across areas like:
-
-- 🎨 Graphic & Visual Design  
-- 🧠 UX/UI & Interaction Design  
-- 🎬 Motion & Animation  
-
-I believe great design connects emotions with functionality — and I always aim to build experiences that are beautiful and meaningful.
-
-
-## 🚀INSIDE                                                           |
-|---------------------|-----------------------------------------------------------------------------|
-| 🎨 Visual Design     | Posters, branding, typography, editorial layouts                           |
-| 📱 UI/UX Projects    | App and web interfaces with a focus on usability and storytelling          |
-| 🎬 Motion Graphics   | Animated visuals, microinteractions, visual storytelling                   |
-| 🧠 Concept Thinking  | Moodboards, idea sketches, creative processes
-| and more....
+A **cross‑platform** personal finance tracking application built with **React** (Web) and **React Native** (Mobile).  
+Track your income, expenses, savings goals and visualize your financial health with interactive charts.
 
 ---
 
-## 📬 CONTACT
+## 🚀 Features
 
-Interested in working together =) ?
+- **Dashboard Overview**  
+  - Total balance, monthly income vs. expenses  
+  - Savings goals with progress bars  
+  - Quick‑glance “spend this month” widget  
 
-- 📧 Email: avenatka@gmail.com  
-- 💼 LinkedIn: [linkedin.com/in/NataliaTomala](https://linkedin.com/in/nataliatomala4444/)  
+- **Transactions**  
+  - Add, edit & delete income or expense entries  
+  - Categorize by type (Food, Transport, Entertainment, etc.)  
+  - Sort and filter (date, category, amount)  
+  - Export to CSV  
 
+- **Savings Goals**  
+  - Create named goals (e.g. “Vacation”, “Emergency Fund”)  
+  - Track progress (%) toward each goal  
+  - Set target amount and deadline  
+
+- **Analytics & Charts**  
+  - Pie chart: spending by category  
+  - Bar chart: monthly expense trends  
+  - Line chart: savings over time  
+  - Date‑range filtering (week, month, year)
+
+- **Responsive Web & PWA**  
+  - Mobile‑first design, adapts to desktop screens  
+  - Installable as a Progressive Web App  
+
+- **Native Mobile App**  
+  - iOS & Android support  
+  - Swipeable charts and bottom‑sheet modals  
+  - Offline‑first with local caching  
+
+- **User Authentication**  
+  - Email/password sign‑up & login  
+  - Secure session management  
+
+- **Internationalization (i18n)**  
+  - English & Polish language support  
+  - Locale‑aware date & currency formats  
+
+---
+
+## 🔧 Tech Stack
+
+### Frontend (Web)
+- **React** + TypeScript  
+- **Tailwind CSS** for utility‑first styling  
+- **React Router** for client‑side navigation  
+- **Recharts** for data visualization  
+- **React Hook Form** + **Yup** for form state & validation  
+- **PWA** enabled via Workbox
+
+### Frontend (Mobile)
+- **React Native** + TypeScript (via **Expo**)  
+- **React Navigation** for screen routing  
+- **React Native Paper** for UI components  
+- **react-native-chart-kit** for mobile charts  
+
+### Backend / BaaS
+- **Firebase Authentication** (email & password)  
+- **Firestore** for realtime cloud storage  
+- **Firebase Hosting** (Web PWA deployment)  
+
+### Tooling & CI/CD
+- **Monorepo** managed with Turborepo  
+- **ESLint** + **Prettier** for code quality  
+- **Jest** & **React Testing Library** (Web)  
+- **Cypress** (Web E2E) / **Detox** (Mobile E2E)  
+- **GitHub Actions** for automated builds & tests  
+- **Vercel** / **Netlify** for Web hosting  
+- **Expo Application Services** for Mobile releases  
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone repository**  
+   ```bash
+   git clone https://github.com/your‑username/finance‑tracker.git
+   cd finance‑tracker
